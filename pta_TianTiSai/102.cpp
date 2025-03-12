@@ -26,9 +26,10 @@ int main(){
     while(1){
         string s_n;
         getline(cin,s_n);
-        if(s==0)break;
+        
         s=s_n[0]-'0';
         n=s_n[2]-'0';
+        if(s==0)break;
         number[s]+=n;
     }
     //算价格和总数
