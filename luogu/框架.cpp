@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    cout<<57/2;
+    cout<<'2'-'0';
 
 
     return 0;
